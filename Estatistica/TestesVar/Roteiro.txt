@@ -1,0 +1,18 @@
+model <- aov(f0r~dial)
+shapiro.test(resid(model))
+
+model <- aov(f0med~dial)
+shapiro.test(resid(model))
+
+
+library(RVAideMemoire)
+
+
+fligner.test(f0r~dial)
+fligner.test(f0med~dial)
+
+pairwise.var.test(f0r,dial,p.method="bonf")
+
+pairwise.var.test(f0med,dial,p.method="bonf")
+
+
