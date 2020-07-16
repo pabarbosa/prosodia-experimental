@@ -1,0 +1,56 @@
+library(lme4)
+model0 <- lmer(f0sd~style*dial + (1|sub))
+
+library(car)
+Anova(model0)
+
+library(lattice)
+qqmath(~log(Dur)|Speaker)
+
+model1 <- lmer(f0sd~style*dial + (style|sub) + (dial|sub))
+Anova(model1)
+
+model2 <- aov(f0sd~style*dial)
+summary.aov(model2)
+
+model1 <- lmer(f0sd~dial + (dial|sub))
+Anova(model1)
+
+model2 <- aov(f0sd~dial)
+summary.aov(model2)
+
+summary(model1)
+Linear mixed model fit by REML ['lmerMod']
+Formula: f0sd ~ dial + (dial | sub)
+
+REML criterion at convergence: 88.4
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-1.9242 -0.4313 -0.1484  0.4712  2.5415 
+
+Random effects:
+ Groups   Name        Variance Std.Dev. Corr 
+ sub      (Intercept) 0.6281   0.7925        
+          dialFR      1.3008   1.1405   -1.00
+ Residual             0.1230   0.3507        
+Number of obs: 63, groups:  sub, 19
+
+Fixed effects:
+            Estimate Std. Error t value
+(Intercept)   3.0015     0.2447  12.265
+dialFR       -0.7854     0.2980  -2.636
+
+Correlation of Fixed Effects:
+       (Intr)
+dialFR -0.933
+
+
+newdata <- data[fBet != "2",]
+
+xyplot(lDur~fBet+fType|Speaker, data = newdata, panel = function(x, y, subscripts) {
+panel.xyplot(x,y)
+subject = as.character(newdata[subscripts[1], "Speaker"])
+coefs = as.numeric(unlist(coef(model1)$Speaker[subject,]))
+panel.abline(coefs, col = "black", lay = 2)
+})

@@ -1,0 +1,58 @@
+1. Leia o arquivo com os dados, com a primeira linha contendo o nome das variáveis:
+
+data <- read.table("ExRegLin", header = T)
+
+ou
+
+data <- read.table(file.choose(), header = T)
+
+2. Conferindo as vari‡veis de an‡lise associadas ˆ vari‡vel (data) q vc colocou na mem—ria
+
+names (data)
+
+3. Crie um modelo de regress‹o linear com a fun‹o lm primeiro a vari‡vel dependente, depois a independente, separadas por  '~'
+
+model1 <- lm(f0med~dur, data= data)
+
+4. Testando a normalidade dos res’duos:
+
+residuos <- resid(model1)
+
+shapiro.test(residuos)
+
+5. Cheque graficamente os pressupostos do modelo
+
+par(mfrow=c(2,2))
+plot(model1)
+
+# Para melhorar o modelo, elimine os pontos que desviam os pressupostos.
+# Ou tente transforma›es nas vari‡veis
+# Ou tente uma regress‹o mœltipla
+# Algumas fun›es œteis:
+
+#Retirando dados e refazendo a Regress‹o, se necess‡rio:
+
+model2 <- update(model, subset=(f0med != ...))
+
+# Comparando modelos com f—rmulas distintas (mas mesmo número de dados):
+
+anova(model1,model2) Se p < alfa ent‹o os modelos diferem, Tome aquele que melhor explica a vari‰ncia de f0med.
+
+# Calculando SSE e SSY
+
+SSE <- deviance(model1)
+SSY <- deviance(lm(f0med~1))
+r2 <- (SSY-SSE)/SSY
+
+8. Examine os coeficientes e a vari‰ncia explicada pelo modelo
+
+summary.lm(model1)
+
+9. Veja o modelo linear contra o espalhamento dos dados
+
+plot(x,y)
+abline(model1)
+
+
+
+

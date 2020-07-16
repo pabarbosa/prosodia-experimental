@@ -1,0 +1,91 @@
+library(pwr)
+
+data <- read.table(file.choose(), header=T)
+attach(data)
+
+# Modelo linear:
+
+model1 <- lm(perc~sr)
+summary.lm(model1)
+
+# Resultado:
+# Call:
+# lm(formula = perc ~ sr)
+
+# Residuals:
+#     Min      1Q  Median      3Q     Max 
+# -0.6703 -0.3093 -0.2303  0.3080  1.1693 
+
+# Coefficients:
+#             Estimate Std. Error t value Pr(>|t|)   
+# (Intercept)  -0.6105     0.2119  -2.880  0.01288 * 
+# sr            1.3368     0.3608   3.705  0.00264 **
+---
+
+# Residual standard error: 0.5163 on 13 degrees of freedom
+# Multiple R-squared:  0.5136,	Adjusted R-squared:  0.4762 
+# F-statistic: 13.73 on 1 and 13 DF,  p-value: 0.002644
+
+pwr.f2.test(12,12,f2=0.51/0.49,0.05)
+
+# power = 0.6470042
+
+# Modelo não linear (logarítmico):
+
+
+model2 <- lm(perc~log(sr))
+summary.lm(model2)
+
+#  Resultado:
+
+# Call:
+# lm(formula = perc ~ log(sr))
+
+# Residuals:
+#      Min       1Q   Median       3Q      Max 
+# -0.67423 -0.22204 -0.03677  0.19151  1.01358 
+
+# Coefficients:
+#             Estimate Std. Error t value Pr(>|t|)    
+# (Intercept)   0.7522     0.2021   3.722 0.002560 ** 
+# log(sr)       0.6907     0.1506   4.587 0.000509 ***
+---
+
+# Residual standard error: 0.4575 on 13 degrees of freedom
+# Multiple R-squared:  0.6181,	Adjusted R-squared:  0.5888 
+# F-statistic: 21.04 on 1 and 13 DF,  p-value: 0.0005093
+
+pwr.f2.test(12,12,f2=0.59/0.41,0.05)
+
+# power = 0.8110026
+
+# Modelo múltiplo linear
+
+mode32 <- lm(perc~sr*pr)
+summary.lm(model3)
+
+# Resultado:
+
+# Call:
+# lm(formula = perc ~ sr * pr)
+
+# Residuals:
+#      Min       1Q   Median       3Q      Max 
+# -0.59949 -0.28626 -0.04606  0.22868  0.64710 
+
+# Coefficients:
+#             Estimate Std. Error t value Pr(>|t|)   
+# (Intercept)  -1.5216     0.3674  -4.141  0.00164 **
+# sr            2.7128     0.7896   3.436  0.00556 **
+# pr            9.6812     3.6902   2.623  0.02368 * 
+# sr:pr       -10.3152     3.7138  -2.778  0.01798 * 
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+# Residual standard error: 0.427 on 11 degrees of freedom
+# Multiple R-squared:  0.7185,	Adjusted R-squared:  0.6417 
+# F-statistic: 9.359 on 3 and 11 DF,  p-value: 0.002309
+
+pwr.f2.test(12,12,f2=0.64/0.36,0.05)
+
+# power = 0.896597

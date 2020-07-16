@@ -1,0 +1,6 @@
+data <- read.table(file.choose(), header=T)
+
+prosody.cor <- cor(data,method="pearson")
+prosody.dist <- dist(prosody.cor)
+prosody.clust <- hclust(prosody.dist)
+plot(prosody.clust)

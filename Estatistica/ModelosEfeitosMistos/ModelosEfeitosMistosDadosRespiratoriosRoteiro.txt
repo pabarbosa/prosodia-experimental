@@ -1,0 +1,29 @@
+library(lme4)
+library(car)
+
+data <- read.table(file.choose(), header=T)
+attach(data)
+
+modelF0range <- lmer(F0range~task*sex + (1|subject), subset=(body=="chest"))
+Anova(modelF0range)
+summary(modelF0range)
+
+# O poder do teste calculado a seguir teve dos retirados do modelo de ANOVA simples, feito com a função aov()
+
+power.anova.test(groups = 2, n = 860,between.var = 2461, within.var = 27.8, sig.level = 0.05)
+
+
+modelF0max <- lmer(F0max~task*sex + (1|subject), subset=(body=="chest"))
+Anova(modelF0max)
+summary(modelF0max)
+
+modelSpecEmph <- lmer(SpecEmph ~task*sex + (1|subject), subset=(body=="chest"))
+Anova(modelSpecEmph)
+summary(modelSpecEmph)
+
+tapply(F0range[body=="chest"],interaction(sex[body=="chest"],task[body=="chest"]),mean,na.rm=T)
+tapply(F0max[body=="chest"],interaction(sex[body=="chest"],task[body=="chest"]),mean,na.rm=T)
+tapply(SpecEmph[body=="chest"],interaction(sex[body=="chest"],task[body=="chest"]),mean,na.rm=T)
+
+
+

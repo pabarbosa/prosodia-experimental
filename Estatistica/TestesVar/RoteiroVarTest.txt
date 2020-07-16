@@ -1,7 +1,10 @@
-model <- aov(f0r~dial)
+data <- read.table(file.choose(), header=T)
+attach(data)
+
+model1 <- aov(f0r~dial)
 shapiro.test(resid(model))
 
-model <- aov(f0med~dial)
+model2 <- aov(f0med~dial)
 shapiro.test(resid(model))
 
 
