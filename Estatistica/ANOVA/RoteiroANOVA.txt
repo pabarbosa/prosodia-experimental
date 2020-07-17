@@ -1,0 +1,92 @@
+1. Leia o arquivo com os dados, com a primeira linha contendo o nome das vari‡veis:
+
+data <- read.table(file.choose(), header = T)
+
+
+2. Crie um modelo de ANOVA com a fun‹o aov(), primeiro a vari‡vel dependente, depois a independente, separadas por  '~'
+
+model <- aov(dur~TONICIDADE, data = data)
+
+
+3. Testando a normalidade dos res’duos:
+
+residuos <- resid(model)
+
+shapiro.test(residuos)
+
+
+4. Testando a homocedasticidade:
+
+fligner.test(dur~TONICIDADE)
+
+5. E, por œltimo, cheque graficamente os pressupostos do teste:
+
+par(mfrow=c(2,2))
+plot(model)
+
+6. No caso de haver homocedasticidade, confira o resultado da an‡lise com:
+
+summary.aov(model)
+
+7. Compara‹o entre grupos se houver uma diferena de mŽdias:
+
+TukeyHSD(model)
+
+8. Ao rodar, confira graficamente a diferena entres n’veis:
+
+plot(TukeyHSD(model))
+
+9. Outro gr‡fico importante Ž o boxplot:
+
+plot(TONICIDADE,dur)
+
+
+# Para a 2-Way ANOVA, mesmos procedimentos anteriores, com novo modelo
+
+model2Way <- aov(dur~ ESTILO*TONICIDADE)
+
+residuos <- resid(model2Way)
+
+shapiro.test(residuos)
+
+
+# Testando a homocedasticidade:
+
+fligner.test(dur~dur~interaction(ESTILO,TONICIDADE))
+
+
+par(mfrow=c(2,2))
+plot(model2Way)
+
+summary.aov(model2Way)
+
+# Verifique as intera›es atravŽs do valor de p e veja gr‡ficos de intera‹o com:
+
+interaction.plot(TONICIDADE, ESTILO,dur)
+interaction.plot(ESTILO, TONICIDADE,dur)
+
+# Se n‹o havousse intera›es, seria necess‡rio simplificar o modelo mudando o * da f—rmula para +:
+
+model2 <- aov(dur~ TONICIDADE +ESTILO)
+
+
+# teste post hoc paramŽtrico:
+
+TukeyHSD(model2Way)
+
+
+# Os testes n‹o paramŽtricos equivalentes s‹o:
+
+# Para ANOVA de um fator:
+
+kruskal.test(dur~TONICIDADE, data = data)
+
+# Para ANOVA de dois fatores, carregue a func‹o ser no R e faa:
+
+attach(data)
+SHR(dur,TONICIDADE,ESTILO,1)
+
+
+
+
+ 

@@ -1,0 +1,53 @@
+### Teste t de vari‡veis independentes
+
+1. Leia o arquivo com os dados, com a primeira linha contendo o nome das vari‡veis:
+
+data <- read.table(file.choose(), header = T)
+
+
+2. Testando a normalidade dos res’duos para as duas vari‡veis:
+
+residuos1 <- c(Baseline[subj=="crim"]-mean(Baseline[subj=="crim"],na.rm=T),Baseline[subj=="susp"]-mean(Baseline[subj=="susp"],na.rm=T))
+shapiro.test(residuos1)
+
+residuos2 <- c(f0Median[subj=="crim"]-mean(f0Median[subj=="crim"],na.rm=T), f0Median[subj=="susp"]-mean(f0Median[subj=="susp"],na.rm=T))
+shapiro.test(residuos2)
+
+
+3. Se tivesse passado no teste:
+
+t.test(Baseline[subj=="crim"],Baseline[subj=="susp"])
+t.test(f0Median[subj=="crim"], f0Median[subj=="susp"])
+
+4. Como n‹o passou:
+
+wilcox.test(Baseline[subj=="crim"],Baseline[subj=="susp"])
+wilcox.test(f0Median[subj=="crim"], f0Median[subj=="susp"])
+
+### Teste t de vari‡veis dependentes
+
+# Basta informar no argumento das fun›es t.test() ou wilcox.test(: paired=T
+
+
+### Teste t de valor œnico:
+
+# Testando a normalidade (como  uma œnica amostra), nesta ver a normalidade dos dados para cada taxa:
+
+shapiro.test(delta[taxa==80])
+
+shapiro.test(delta[taxa==108])
+
+# Teste t:
+
+t.test(delta[taxa==80])
+
+t.test(delta[taxa==108])
+
+
+
+
+
+
+
+
+ 
