@@ -1,0 +1,630 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 42.5665306122449 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "Whole" 
+        xmin = 0 
+        xmax = 42.5665306122449 
+        intervals: size = 154 
+        intervals [1]:
+            xmin = 0 
+            xmax = 4.664421417036517 
+            text = "" 
+        intervals [2]:
+            xmin = 4.664421417036517 
+            xmax = 4.775161700809739 
+            text = "uv" 
+        intervals [3]:
+            xmin = 4.775161700809739 
+            xmax = 4.978355170355973 
+            text = "eNt" 
+        intervals [4]:
+            xmin = 4.978355170355973 
+            xmax = 5.211971560679984 
+            text = "Us" 
+        intervals [5]:
+            xmin = 5.211971560679984 
+            xmax = 5.421296770114158 
+            text = "uU" 
+        intervals [6]:
+            xmin = 5.421296770114158 
+            xmax = 5.692644263825124 
+            text = "ius" 
+        intervals [7]:
+            xmin = 5.692644263825124 
+            xmax = 5.983583391512555 
+            text = "ohUd" 
+        intervals [8]:
+            xmin = 5.983583391512555 
+            xmax = 6.191584178682697 
+            text = "iSk" 
+        intervals [9]:
+            xmin = 6.191584178682697 
+            xmax = 6.4052164911916485 
+            text = "ut" 
+        intervals [10]:
+            xmin = 6.4052164911916485 
+            xmax = 6.7136050713456985 
+            text = "iANUk" 
+        intervals [11]:
+            xmin = 6.7136050713456985 
+            xmax = 6.935851590004204 
+            text = "UaUd" 
+        intervals [12]:
+            xmin = 6.935851590004204 
+            xmax = 7.139146855133689 
+            text = "uSd" 
+        intervals [13]:
+            xmin = 7.139146855133689 
+            xmax = 7.388951237187426 
+            text = "oIS" 
+        intervals [14]:
+            xmin = 7.388951237187426 
+            xmax = 7.504801273195988 
+            text = "ehR" 
+        intervals [15]:
+            xmin = 7.504801273195988 
+            xmax = 7.644993572472963 
+            text = "um" 
+        intervals [16]:
+            xmin = 7.644993572472963 
+            xmax = 7.970264301935768 
+            text = "aISf" 
+        intervals [17]:
+            xmin = 7.970264301935768 
+            xmax = 8.609691851342445 
+            text = "ohRtk" 
+        intervals [18]:
+            xmin = 8.609691851342445 
+            xmax = 8.755418057169827 
+            text = "UaNd" 
+        intervals [19]:
+            xmin = 8.755418057169827 
+            xmax = 8.867325945189167 
+            text = "Up" 
+        intervals [20]:
+            xmin = 8.867325945189167 
+            xmax = 9.101594655823058 
+            text = "as" 
+        intervals [21]:
+            xmin = 9.101594655823058 
+            xmax = 9.370888393067133 
+            text = "ouNv" 
+        intervals [22]:
+            xmin = 9.370888393067133 
+            xmax = 9.691240094485133 
+            text = "Iazh" 
+        intervals [23]:
+            xmin = 9.691240094485133 
+            xmax = 10.060759028142133 
+            text = "aNt" 
+        intervals [24]:
+            xmin = 10.060759028142133 
+            xmax = 10.259341737242123 
+            text = "iNv" 
+        intervals [25]:
+            xmin = 10.259341737242123 
+            xmax = 10.583997588199326 
+            text = "oUtn" 
+        intervals [26]:
+            xmin = 10.583997588199326 
+            xmax = 10.768461139879557 
+            text = "uNk" 
+        intervals [27]:
+            xmin = 10.768461139879557 
+            xmax = 10.999017531270784 
+            text = "az" 
+        intervals [28]:
+            xmin = 10.999017531270784 
+            xmax = 11.847732168054232 
+            text = "ak" 
+        intervals [29]:
+            xmin = 11.847732168054232 
+            xmax = 12.138824823281176 
+            text = "aUv" 
+        intervals [30]:
+            xmin = 12.138824823281176 
+            xmax = 12.508261578850929 
+            text = "elU" 
+        intervals [31]:
+            xmin = 12.508261578850929 
+            xmax = 12.698788689990447 
+            text = "ap" 
+        intervals [32]:
+            xmin = 12.698788689990447 
+            xmax = 12.849177731414219 
+            text = "oS" 
+        intervals [33]:
+            xmin = 12.849177731414219 
+            xmax = 13.082240935174987 
+            text = "taR" 
+        intervals [34]:
+            xmin = 13.082240935174987 
+            xmax = 13.361792668146748 
+            text = "ANUk" 
+        intervals [35]:
+            xmin = 13.361792668146748 
+            xmax = 13.72340231145967 
+            text = "Iak" 
+        intervals [36]:
+            xmin = 13.72340231145967 
+            xmax = 13.858542221762244 
+            text = "el" 
+        intervals [37]:
+            xmin = 13.858542221762244 
+            xmax = 14.164699427336522 
+            text = "IkIpR" 
+        intervals [38]:
+            xmin = 14.164699427336522 
+            xmax = 14.281407745216704 
+            text = "im" 
+        intervals [39]:
+            xmin = 14.281407745216704 
+            xmax = 14.419137310009637 
+            text = "eIR" 
+        intervals [40]:
+            xmin = 14.419137310009637 
+            xmax = 14.557357318081769 
+            text = "Uk" 
+        intervals [41]:
+            xmin = 14.557357318081769 
+            xmax = 14.739779383841096 
+            text = "oNs" 
+        intervals [42]:
+            xmin = 14.739779383841096 
+            xmax = 14.841921134959986 
+            text = "Ig" 
+        intervals [43]:
+            xmin = 14.841921134959986 
+            xmax = 15.07786006928431 
+            text = "is" 
+        intervals [44]:
+            xmin = 15.07786006928431 
+            xmax = 15.258026456661712 
+            text = "obR" 
+        intervals [45]:
+            xmin = 15.258026456661712 
+            xmax = 15.397219915069167 
+            text = "ig" 
+        intervals [46]:
+            xmin = 15.397219915069167 
+            xmax = 15.564615378925431 
+            text = "aR" 
+        intervals [47]:
+            xmin = 15.564615378925431 
+            xmax = 15.727422013312722 
+            text = "uv" 
+        intervals [48]:
+            xmin = 15.727422013312722 
+            xmax = 15.99525147219536 
+            text = "iazh" 
+        intervals [49]:
+            xmin = 15.99525147219536 
+            xmax = 16.22149013620898 
+            text = "aNt" 
+        intervals [50]:
+            xmin = 16.22149013620898 
+            xmax = 16.46261633128859 
+            text = "atR" 
+        intervals [51]:
+            xmin = 16.46261633128859 
+            xmax = 16.615126415362734 
+            text = "aR" 
+        intervals [52]:
+            xmin = 16.615126415362734 
+            xmax = 16.75854861178803 
+            text = "uk" 
+        intervals [53]:
+            xmin = 16.75854861178803 
+            xmax = 16.956295656287143 
+            text = "az" 
+        intervals [54]:
+            xmin = 16.956295656287143 
+            xmax = 17.812981704817506 
+            text = "akUs" 
+        intervals [55]:
+            xmin = 17.812981704817506 
+            xmax = 17.933054033918406 
+            text = "eR" 
+        intervals [56]:
+            xmin = 17.933054033918406 
+            xmax = 18.18393524291014 
+            text = "iAk" 
+        intervals [57]:
+            xmin = 18.18393524291014 
+            xmax = 18.335895587867192 
+            text = "oNs" 
+        intervals [58]:
+            xmin = 18.335895587867192 
+            xmax = 18.463151810562874 
+            text = "id" 
+        intervals [59]:
+            xmin = 18.463151810562874 
+            xmax = 18.55872062125852 
+            text = "eR" 
+        intervals [60]:
+            xmin = 18.55872062125852 
+            xmax = 18.738599951859154 
+            text = "ad" 
+        intervals [61]:
+            xmin = 18.738599951859154 
+            xmax = 18.841046367649387 
+            text = "um" 
+        intervals [62]:
+            xmin = 18.841046367649387 
+            xmax = 19.14464864322573 
+            text = "aISf" 
+        intervals [63]:
+            xmin = 19.14464864322573 
+            xmax = 20.10541951791836 
+            text = "ohRt" 
+        intervals [64]:
+            xmin = 20.10541951791836 
+            xmax = 20.23715618391113 
+            text = "uv" 
+        intervals [65]:
+            xmin = 20.23715618391113 
+            xmax = 20.46304704502289 
+            text = "eNt" 
+        intervals [66]:
+            xmin = 20.46304704502289 
+            xmax = 20.676176717095064 
+            text = "Us" 
+        intervals [67]:
+            xmin = 20.676176717095064 
+            xmax = 20.929805355647243 
+            text = "uUk" 
+        intervals [68]:
+            xmin = 20.929805355647243 
+            xmax = 20.99976042946109 
+            text = "om" 
+        intervals [69]:
+            xmin = 20.99976042946109 
+            xmax = 21.236736036111008 
+            text = "es" 
+        intervals [70]:
+            xmin = 21.236736036111008 
+            xmax = 21.31807818501179 
+            text = "oU" 
+        intervals [71]:
+            xmin = 21.31807818501179 
+            xmax = 21.514215347495554 
+            text = "as" 
+        intervals [72]:
+            xmin = 21.514215347495554 
+            xmax = 21.70223657796799 
+            text = "opR" 
+        intervals [73]:
+            xmin = 21.70223657796799 
+            xmax = 21.96933565485624 
+            text = "aRk" 
+        intervals [74]:
+            xmin = 21.96933565485624 
+            xmax = 22.10827930892813 
+            text = "uNm" 
+        intervals [75]:
+            xmin = 22.10827930892813 
+            xmax = 22.2526235191782 
+            text = "uNt" 
+        intervals [76]:
+            xmin = 22.2526235191782 
+            xmax = 22.468647911635895 
+            text = "af" 
+        intervals [77]:
+            xmin = 22.468647911635895 
+            xmax = 22.78441790161927 
+            text = "oRs" 
+        intervals [78]:
+            xmin = 22.78441790161927 
+            xmax = 23.390721789536695 
+            text = "Am" 
+        intervals [79]:
+            xmin = 23.390721789536695 
+            xmax = 23.708333460042013 
+            text = "aSk" 
+        intervals [80]:
+            xmin = 23.708333460042013 
+            xmax = 23.88435333537791 
+            text = "UaNt" 
+        intervals [81]:
+            xmin = 23.88435333537791 
+            xmax = 23.994765802634063 
+            text = "Um" 
+        intervals [82]:
+            xmin = 23.994765802634063 
+            xmax = 24.257195434953037 
+            text = "aIS" 
+        intervals [83]:
+            xmin = 24.257195434953037 
+            xmax = 24.448338282372386 
+            text = "opR" 
+        intervals [84]:
+            xmin = 24.448338282372386 
+            xmax = 24.78383110687677 
+            text = "av" 
+        intervals [85]:
+            xmin = 24.78383110687677 
+            xmax = 25.31149827894006 
+            text = "Am" 
+        intervals [86]:
+            xmin = 25.31149827894006 
+            xmax = 25.516083194144144 
+            text = "aIS" 
+        intervals [87]:
+            xmin = 25.516083194144144 
+            xmax = 25.685702346740555 
+            text = "uv" 
+        intervals [88]:
+            xmin = 25.685702346740555 
+            xmax = 25.919863164362003 
+            text = "iazh" 
+        intervals [89]:
+            xmin = 25.919863164362003 
+            xmax = 26.347911497565203 
+            text = "aNts" 
+        intervals [90]:
+            xmin = 26.347911497565203 
+            xmax = 26.55364998207867 
+            text = "iNbR" 
+        intervals [91]:
+            xmin = 26.55364998207867 
+            xmax = 26.712867960223413 
+            text = "ulh" 
+        intervals [92]:
+            xmin = 26.712867960223413 
+            xmax = 26.94729443055713 
+            text = "av" 
+        intervals [93]:
+            xmin = 26.94729443055713 
+            xmax = 27.044220585932774 
+            text = "An" 
+        intervals [94]:
+            xmin = 27.044220585932774 
+            xmax = 27.2186402805838 
+            text = "us" 
+        intervals [95]:
+            xmin = 27.2186402805838 
+            xmax = 27.38425898146803 
+            text = "eUk" 
+        intervals [96]:
+            xmin = 27.38425898146803 
+            xmax = 27.565879489200977 
+            text = "az" 
+        intervals [97]:
+            xmin = 27.565879489200977 
+            xmax = 28.38574123993943 
+            text = "ak" 
+        intervals [98]:
+            xmin = 28.38574123993943 
+            xmax = 28.561809509096452 
+            text = "at" 
+        intervals [99]:
+            xmin = 28.561809509096452 
+            xmax = 28.74320004423874 
+            text = "ehk" 
+        intervals [100]:
+            xmin = 28.74320004423874 
+            xmax = 28.903992984108168 
+            text = "IUv" 
+        intervals [101]:
+            xmin = 28.903992984108168 
+            xmax = 29.112219841239078 
+            text = "eNt" 
+        intervals [102]:
+            xmin = 29.112219841239078 
+            xmax = 29.349122572145266 
+            text = "Us" 
+        intervals [103]:
+            xmin = 29.349122572145266 
+            xmax = 29.612900211970704 
+            text = "uUd" 
+        intervals [104]:
+            xmin = 29.612900211970704 
+            xmax = 29.77288659311672 
+            text = "ez" 
+        intervals [105]:
+            xmin = 29.77288659311672 
+            xmax = 30.09036549226457 
+            text = "iSt" 
+        intervals [106]:
+            xmin = 30.09036549226457 
+            xmax = 30.846069706096955 
+            text = "I" 
+        intervals [107]:
+            xmin = 30.846069706096955 
+            xmax = 31.05027673973112 
+            text = "us" 
+        intervals [108]:
+            xmin = 31.05027673973112 
+            xmax = 31.312923933777164 
+            text = "ohUbR" 
+        intervals [109]:
+            xmin = 31.312923933777164 
+            xmax = 31.512556441855715 
+            text = "ilh" 
+        intervals [110]:
+            xmin = 31.512556441855715 
+            xmax = 31.617875817470185 
+            text = "oU" 
+        intervals [111]:
+            xmin = 31.617875817470185 
+            xmax = 31.847351529872764 
+            text = "iNt" 
+        intervals [112]:
+            xmin = 31.847351529872764 
+            xmax = 32.09256076317364 
+            text = "aNUk" 
+        intervals [113]:
+            xmin = 32.09256076317364 
+            xmax = 32.27851502820185 
+            text = "oNt" 
+        intervals [114]:
+            xmin = 32.27851502820185 
+            xmax = 32.44345693431222 
+            text = "od" 
+        intervals [115]:
+            xmin = 32.44345693431222 
+            xmax = 32.61141607041241 
+            text = "iNt" 
+        intervals [116]:
+            xmin = 32.61141607041241 
+            xmax = 32.854805956258204 
+            text = "eNs" 
+        intervals [117]:
+            xmin = 32.854805956258204 
+            xmax = 32.981601055996194 
+            text = "Id" 
+        intervals [118]:
+            xmin = 32.981601055996194 
+            xmax = 33.380462024760355 
+            text = "ad" 
+        intervals [119]:
+            xmin = 33.380462024760355 
+            xmax = 33.89808303856207 
+            text = "I" 
+        intervals [120]:
+            xmin = 33.89808303856207 
+            xmax = 34.21932544233729 
+            text = "iim" 
+        intervals [121]:
+            xmin = 34.21932544233729 
+            xmax = 34.39657233645271 
+            text = "ed" 
+        intervals [122]:
+            xmin = 34.39657233645271 
+            xmax = 34.57432552244145 
+            text = "at" 
+        intervals [123]:
+            xmin = 34.57432552244145 
+            xmax = 34.71791327118022 
+            text = "am" 
+        intervals [124]:
+            xmin = 34.71791327118022 
+            xmax = 35.0217192186969 
+            text = "eNt" 
+        intervals [125]:
+            xmin = 35.0217192186969 
+            xmax = 35.18434023711996 
+            text = "IUv" 
+        intervals [126]:
+            xmin = 35.18434023711996 
+            xmax = 35.442279155603494 
+            text = "Iazh" 
+        intervals [127]:
+            xmin = 35.442279155603494 
+            xmax = 35.64257242300562 
+            text = "aNt" 
+        intervals [128]:
+            xmin = 35.64257242300562 
+            xmax = 35.80550284245609 
+            text = "It" 
+        intervals [129]:
+            xmin = 35.80550284245609 
+            xmax = 35.893507763161985 
+            text = "iR" 
+        intervals [130]:
+            xmin = 35.893507763161985 
+            xmax = 36.00032763351021 
+            text = "oU" 
+        intervals [131]:
+            xmin = 36.00032763351021 
+            xmax = 36.185465122821746 
+            text = "uk" 
+        intervals [132]:
+            xmin = 36.185465122821746 
+            xmax = 36.36073253377587 
+            text = "az" 
+        intervals [133]:
+            xmin = 36.36073253377587 
+            xmax = 37.19278449306535 
+            text = "ak" 
+        intervals [134]:
+            xmin = 37.19278449306535 
+            xmax = 37.33568699547312 
+            text = "uv" 
+        intervals [135]:
+            xmin = 37.33568699547312 
+            xmax = 37.54566618268452 
+            text = "eNt" 
+        intervals [136]:
+            xmin = 37.54566618268452 
+            xmax = 37.7662732612394 
+            text = "Us" 
+        intervals [137]:
+            xmin = 37.7662732612394 
+            xmax = 38.02801815085362 
+            text = "uUt" 
+        intervals [138]:
+            xmin = 38.02801815085362 
+            xmax = 38.136456909400174 
+            text = "ev" 
+        intervals [139]:
+            xmin = 38.136456909400174 
+            xmax = 38.44623790694154 
+            text = "Ias" 
+        intervals [140]:
+            xmin = 38.44623790694154 
+            xmax = 38.573540789506964 
+            text = "iNd" 
+        intervals [141]:
+            xmin = 38.573540789506964 
+            xmax = 38.69121275911009 
+            text = "ir" 
+        intervals [142]:
+            xmin = 38.69121275911009 
+            xmax = 38.854923332895375 
+            text = "ek" 
+        intervals [143]:
+            xmin = 38.854923332895375 
+            xmax = 38.98688941930255 
+            text = "onh" 
+        intervals [144]:
+            xmin = 38.98688941930255 
+            xmax = 39.184474001713276 
+            text = "es" 
+        intervals [145]:
+            xmin = 39.184474001713276 
+            xmax = 39.327712984402396 
+            text = "eR" 
+        intervals [146]:
+            xmin = 39.327712984402396 
+            xmax = 39.57195960841567 
+            text = "as" 
+        intervals [147]:
+            xmin = 39.57195960841567 
+            xmax = 39.70757116682303 
+            text = "Up" 
+        intervals [148]:
+            xmin = 39.70757116682303 
+            xmax = 39.82038449176982 
+            text = "eR " 
+        intervals [149]:
+            xmin = 39.82038449176982 
+            xmax = 39.972765221378104 
+            text = "IoR" 
+        intervals [150]:
+            xmin = 39.972765221378104 
+            xmax = 40.11482643999169 
+            text = "Id" 
+        intervals [151]:
+            xmin = 40.11482643999169 
+            xmax = 40.30624321236151 
+            text = "ad" 
+        intervals [152]:
+            xmin = 40.30624321236151 
+            xmax = 40.4647917520107 
+            text = "Id" 
+        intervals [153]:
+            xmin = 40.4647917520107 
+            xmax = 40.64658864151997 
+            text = "Us" 
+        intervals [154]:
+            xmin = 40.64658864151997 
+            xmax = 42.5665306122449 
+            text = "" 
