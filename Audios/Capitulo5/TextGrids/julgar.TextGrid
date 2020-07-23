@@ -1,0 +1,92 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.5454421768707483 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "TextTier" 
+        name = "tones" 
+        xmin = 0 
+        xmax = 3.5454421768707483 
+        points: size = 6 
+        points [1]:
+            number = 0.6556587078219077 
+            mark = "H" 
+        points [2]:
+            number = 1.1258716253085663 
+            mark = "HLH" 
+        points [3]:
+            number = 1.6976946616777193 
+            mark = "LH" 
+        points [4]:
+            number = 2.5401776650411962 
+            mark = "LH" 
+        points [5]:
+            number = 3.1938926273294626 
+            mark = "LH" 
+        points [6]:
+            number = 3.5064398689163165 
+            mark = "L%" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "vogais" 
+        xmin = 0 
+        xmax = 3.5454421768707483 
+        intervals: size = 11 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.5574817354635967 
+            text = "" 
+        intervals [2]:
+            xmin = 0.5574817354635967 
+            xmax = 0.6772097505347077 
+            text = "e\~^j" 
+        intervals [3]:
+            xmin = 0.6772097505347077 
+            xmax = 1.038788356049463 
+            text = "" 
+        intervals [4]:
+            xmin = 1.038788356049463 
+            xmax = 1.2111966977518631 
+            text = "a" 
+        intervals [5]:
+            xmin = 1.2111966977518631 
+            xmax = 1.601510026883685 
+            text = "" 
+        intervals [6]:
+            xmin = 1.601510026883685 
+            xmax = 1.7667346876818184 
+            text = "oj" 
+        intervals [7]:
+            xmin = 1.7667346876818184 
+            xmax = 2.497075579615596 
+            text = "" 
+        intervals [8]:
+            xmin = 2.497075579615596 
+            xmax = 2.6096199137824407 
+            text = "e" 
+        intervals [9]:
+            xmin = 2.6096199137824407 
+            xmax = 3.0382462077370183 
+            text = "" 
+        intervals [10]:
+            xmin = 3.0382462077370183 
+            xmax = 3.3327771248119515 
+            text = "e" 
+        intervals [11]:
+            xmin = 3.3327771248119515 
+            xmax = 3.5454421768707483 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "palavras" 
+        xmin = 0 
+        xmax = 3.5454421768707483 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 3.5454421768707483 
+            text = "" 

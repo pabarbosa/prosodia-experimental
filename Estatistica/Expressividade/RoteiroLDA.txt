@@ -1,0 +1,17 @@
+library(MASS)
+data <- read.table(file.choose(), header=T)
+data_nona <- na.omit(data)
+attach(data_nona)
+table(subj,predict(model)$class)
+model <- lda(subj~f0max+cvint+emph+df0posmean+df0negmean+df0sdpos+df0sdneg+f0peak_rate)
+
+# Resultado:
+    
+subj CV JM ME ML SC SM YR
+  CV  6  0  0  0  0  0  1
+  JM  0  9  0  0  0  1  0
+  ME  0  0  9  0  0  1  0
+  ML  0  0  0  9  2  0  0
+  SC  0  0  0  1 10  1  0
+  SM  0  2  0  0  0 11  0
+  YR  0  0  0  0  0  0 10

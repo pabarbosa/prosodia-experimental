@@ -1,0 +1,50 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.7203431910577636 
+tiers? <exists> 
+size = 2 
+item []: 
+    item [1]:
+        class = "TextTier" 
+        name = "tones" 
+        xmin = 0 
+        xmax = 1.7203431910577636 
+        points: size = 2 
+        points [1]:
+            number = 0.5466039187431577 
+            mark = "L+H*" 
+        points [2]:
+            number = 1.5926439187431578 
+            mark = "L-L%" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 1.7203431910577636 
+        intervals: size = 6 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.1307661199882566 
+            text = "" 
+        intervals [2]:
+            xmin = 0.1307661199882566 
+            xmax = 0.6792939187431579 
+            text = "marianna" 
+        intervals [3]:
+            xmin = 0.6792939187431579 
+            xmax = 0.8970039187431578 
+            text = "made" 
+        intervals [4]:
+            xmin = 0.8970039187431578 
+            xmax = 1.010783918743158 
+            text = "the" 
+        intervals [5]:
+            xmin = 1.010783918743158 
+            xmax = 1.5920939187431578 
+            text = "marmalade" 
+        intervals [6]:
+            xmin = 1.5920939187431578 
+            xmax = 1.7203431910577636 
+            text = "" 

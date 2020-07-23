@@ -1,0 +1,127 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.3368934240362815 
+tiers? <exists> 
+size = 2 
+item []: 
+    item [1]:
+        class = "TextTier" 
+        name = "Tones" 
+        xmin = 0 
+        xmax = 5.3368934240362815 
+        points: size = 9 
+        points [1]:
+            number = 1.2185927090020034 
+            mark = "L" 
+        points [2]:
+            number = 1.5987204053699786 
+            mark = ">LH" 
+        points [3]:
+            number = 1.9938830600885273 
+            mark = "?" 
+        points [4]:
+            number = 2.169750042793704 
+            mark = "HL" 
+        points [5]:
+            number = 2.4515080875751476 
+            mark = "L" 
+        points [6]:
+            number = 4.0206263400942435 
+            mark = "L" 
+        points [7]:
+            number = 4.393009894553125 
+            mark = ">LH" 
+        points [8]:
+            number = 5.046207276964606 
+            mark = "HL" 
+        points [9]:
+            number = 5.327021104917205 
+            mark = "L" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "Orto" 
+        xmin = 0 
+        xmax = 5.3368934240362815 
+        intervals: size = 20 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.02226462448949539 
+            text = "" 
+        intervals [2]:
+            xmin = 0.02226462448949539 
+            xmax = 0.04803281783116001 
+            text = "eu" 
+        intervals [3]:
+            xmin = 0.04803281783116001 
+            xmax = 0.20825035336844663 
+            text = "" 
+        intervals [4]:
+            xmin = 0.20825035336844663 
+            xmax = 0.38053653539127097 
+            text = "" 
+        intervals [5]:
+            xmin = 0.38053653539127097 
+            xmax = 0.823002128362954 
+            text = "" 
+        intervals [6]:
+            xmin = 0.823002128362954 
+            xmax = 0.9453820524207671 
+            text = "" 
+        intervals [7]:
+            xmin = 0.9453820524207671 
+            xmax = 1.0956041296793344 
+            text = "" 
+        intervals [8]:
+            xmin = 1.0956041296793344 
+            xmax = 1.4198458409899055 
+            text = "parte" 
+        intervals [9]:
+            xmin = 1.4198458409899055 
+            xmax = 1.767885109093913 
+            text = "dos" 
+        intervals [10]:
+            xmin = 1.767885109093913 
+            xmax = 2.4515080875751476 
+            text = "jogadores" 
+        intervals [11]:
+            xmin = 2.4515080875751476 
+            xmax = 2.8231283449173064 
+            text = "" 
+        intervals [12]:
+            xmin = 2.8231283449173064 
+            xmax = 2.897347837219977 
+            text = "" 
+        intervals [13]:
+            xmin = 2.897347837219977 
+            xmax = 3.076087878664106 
+            text = "" 
+        intervals [14]:
+            xmin = 3.076087878664106 
+            xmax = 3.5885593261612594 
+            text = "" 
+        intervals [15]:
+            xmin = 3.5885593261612594 
+            xmax = 3.734353654871667 
+            text = "" 
+        intervals [16]:
+            xmin = 3.734353654871667 
+            xmax = 3.8813540995655216 
+            text = "" 
+        intervals [17]:
+            xmin = 3.8813540995655216 
+            xmax = 4.229605153066438 
+            text = "parte" 
+        intervals [18]:
+            xmin = 4.229605153066438 
+            xmax = 4.5642936655390525 
+            text = "dos" 
+        intervals [19]:
+            xmin = 4.5642936655390525 
+            xmax = 5.327021104917205 
+            text = "brasileiros" 
+        intervals [20]:
+            xmin = 5.327021104917205 
+            xmax = 5.3368934240362815 
+            text = "" 
