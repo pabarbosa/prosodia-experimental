@@ -1,0 +1,62 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 46.22256235827665 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "chunks" 
+        xmin = 0 
+        xmax = 46.22256235827665 
+        intervals: size = 12 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.08591390767405781 
+            text = "" 
+        intervals [2]:
+            xmin = 0.08591390767405781 
+            xmax = 6.543434915407784 
+            text = "t1" 
+        intervals [3]:
+            xmin = 6.543434915407784 
+            xmax = 12.300235129628593 
+            text = "t2" 
+        intervals [4]:
+            xmin = 12.300235129628593 
+            xmax = 18.34916136538185 
+            text = "t3" 
+        intervals [5]:
+            xmin = 18.34916136538185 
+            xmax = 20.958399705783656 
+            text = "t4" 
+        intervals [6]:
+            xmin = 20.958399705783656 
+            xmax = 24.869369629618532 
+            text = "t5" 
+        intervals [7]:
+            xmin = 24.869369629618532 
+            xmax = 30.022722751091997 
+            text = "t6" 
+        intervals [8]:
+            xmin = 30.022722751091997 
+            xmax = 34.5889988316776 
+            text = "t7" 
+        intervals [9]:
+            xmin = 34.5889988316776 
+            xmax = 36.88190770019332 
+            text = "t8" 
+        intervals [10]:
+            xmin = 36.88190770019332 
+            xmax = 41.98459881687033 
+            text = "t9" 
+        intervals [11]:
+            xmin = 41.98459881687033 
+            xmax = 46.094341900433456 
+            text = "t10" 
+        intervals [12]:
+            xmin = 46.094341900433456 
+            xmax = 46.22256235827665 
+            text = "" 
