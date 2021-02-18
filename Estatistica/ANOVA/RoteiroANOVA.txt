@@ -65,7 +65,7 @@ summary.aov(model2Way)
 interaction.plot(TONICIDADE, ESTILO,dur)
 interaction.plot(ESTILO, TONICIDADE,dur)
 
-# Se não havousse interações, seria necessário simplificar o modelo mudando o * da fórmula para +:
+# Se não houvesse interações, seria necessário simplificar o modelo mudando o * da fórmula para +:
 
 model2 <- aov(dur~ TONICIDADE +ESTILO)
 
@@ -81,7 +81,11 @@ TukeyHSD(model2Way)
 
 kruskal.test(dur~TONICIDADE, data = data)
 
-# Para ANOVA de dois fatores, carregue a funcão ser no R e faça:
+Post hoc: 
+
+pairwise.wilcox.test(dur,TONICIDADE,p.adjust.method="bonf")
+
+# Para ANOVA de dois fatores, carregue a funcão SHR no R e faça:
 
 attach(data)
 SHR(dur,TONICIDADE,ESTILO,1)
